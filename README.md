@@ -44,3 +44,6 @@ To check an application's health, register it through the dashboard, then choose
 The `backend` directory is the deployment source folder. It contains `main.py`, `requirements.txt`, `Procfile`, `.ebignore`, and the `static` assets. The Procfile starts Uvicorn on port 8000.
 
 For a demo, the app uses a SQLite database stored beside `main.py`. SQLite data may not persist across instance replacement or redeployment, so this setup is not intended for production persistence. AWS credentials and deployment configuration are not included in this repository.
+
+---
+
